@@ -1,11 +1,8 @@
-import "./App.css";
+import React from "react";
+import HomeLayout from "./layout/HomeLayout";
 
 const App = () => {
-  return (
-    <div>
-      <h1>React App</h1>
-    </div>
-  );
+  return <HomeLayout />;
 };
 
 export default App;
