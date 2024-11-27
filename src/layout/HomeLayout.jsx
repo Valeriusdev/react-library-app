@@ -1,6 +1,7 @@
 import Header from '../components/Header'
 import Component1 from '../components/Component1'
 import Component2 from '../components/Component2'
+import Footer from '../components/Footer'
 
 const HomeLayout = () => {
   return (
@@ -18,6 +19,9 @@ const HomeLayout = () => {
           </div>
         </div>
       </main>
+      <div className="w-full h-[40vh]">
+        <Footer />
+      </div>
     </div>
   )
 }
