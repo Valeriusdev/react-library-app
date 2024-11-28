@@ -5,12 +5,12 @@ import Footer from '../components/Footer'
 
 const HomeLayout = () => {
   return (
-    <div className="w-full">
+    <div className="flex flex-col w-full">
       <section className="h-screen w-full">
         <Header />
       </section>
       <main className="w-full">
-        <div className="w-full">
+        <div className="w-full px-6 py-8 space-y-4">
           <div className="flex justify-center w-full">
             <Component1 />
           </div>
