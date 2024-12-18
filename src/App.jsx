@@ -1,11 +1,15 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeLayout from "./layout/HomeLayout";
 
 const App = () => {
   return (
     <BrowserRouter>
-      <HomeLayout />;
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<HomeLayout />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 };
