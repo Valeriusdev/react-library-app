@@ -12,10 +12,10 @@ const AboutLayout = () => {
       <main className="w-full">
         <div className="w-full px-6 py-8 space-y-4">
           <div className="flex justify-center w-full">
-            <Component1 />
+            <h1>About</h1>
           </div>
           <div className="flex justify-center w-full">
-            <Component2 />
+            <Component1 />
           </div>
         </div>
       </main>
