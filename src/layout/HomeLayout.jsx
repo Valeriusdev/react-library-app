@@ -1,7 +1,8 @@
-import Header from '../components/Header'
-import Component1 from '../components/Component1'
-import Component2 from '../components/Component2'
-import Footer from '../components/Footer'
+import Header from "../components/Header";
+import Component1 from "../components/Component1";
+import Component2 from "../components/Component2";
+import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const HomeLayout = () => {
   return (
@@ -12,7 +13,7 @@ const HomeLayout = () => {
       <main className="w-full">
         <div className="w-full px-6 py-8 space-y-4">
           <div className="flex justify-center w-full">
-            <Component1 />
+            <Link to="/about">About</Link>
           </div>
           <div className="flex justify-center w-full">
             <Component2 />
@@ -23,7 +24,7 @@ const HomeLayout = () => {
         <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomeLayout
+export default HomeLayout;
