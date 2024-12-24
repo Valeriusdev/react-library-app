@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomeLayout from "./layout/HomeLayout";
 import AboutLayout from "./layout/AboutLayout";
+import ContactsLayout from "./layout/ContactsLayout";
 import NotFoundLayout from "./layout/NotFoundLayout";
 
 const App = () => {

@@ -12,7 +12,7 @@ const NotFoundLayout = () => {
       <main className="w-full">
         <div className="w-full px-6 py-8 space-y-4">
           <div className="flex justify-center w-full">
-            <Component1 />
+            <h1>Page Not Found</h1>
           </div>
           <div className="flex justify-center w-full">
             <Component2 />
