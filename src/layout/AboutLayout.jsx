@@ -16,7 +16,12 @@ const AboutLayout = () => {
             <h1>About</h1>
           </div>
           <div className="flex justify-center w-full">
-            <Link to="/">Home</Link>
+            <Link
+              to="/"
+              className="font-medium text-blue-400 hover:text-blue-800"
+            >
+              Home
+            </Link>
           </div>
           <div className="flex justify-center w-full">
             <Component1 />

@@ -13,7 +13,12 @@ const HomeLayout = () => {
       <main className="w-full">
         <div className="w-full px-6 py-8 space-y-4">
           <div className="flex justify-center w-full">
-            <Link to="/about">About</Link>
+            <Link
+              to="/about"
+              className="font-medium text-blue-400 hover:text-blue-800"
+            >
+              About
+            </Link>
           </div>
           <div className="flex justify-center w-full">
             <Component2 />
