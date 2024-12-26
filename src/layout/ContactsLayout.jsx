@@ -1,7 +1,7 @@
-import Header from '../components/Header'
-import Component1 from '../components/Component1'
-import Component2 from '../components/Component2'
-import Footer from '../components/Footer'
+import Header from "../components/Header";
+import Component1 from "../components/Component1";
+import Component2 from "../components/Component2";
+import Footer from "../components/Footer";
 
 const ContactsLayout = () => {
   return (
@@ -23,7 +23,7 @@ const ContactsLayout = () => {
         <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactsLayout
+export default ContactsLayout;
