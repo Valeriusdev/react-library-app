@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import Component1 from "../components/Component1";
-import Component2 from "../components/Component2";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
@@ -21,7 +20,7 @@ const HomeLayout = () => {
             </Link>
           </div>
           <div className="flex justify-center w-full">
-            <Component2 />
+            <Component1 />
           </div>
         </div>
       </main>
