@@ -5,6 +5,7 @@ const Menu = ({ className }) => {
     <nav className={className}>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
+      <Link to="/contacts">Contacts</Link>
     </nav>
   );
 };
