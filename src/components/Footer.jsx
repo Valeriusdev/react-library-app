@@ -7,7 +7,7 @@ const Footer = () => {
         <h2 className="text-5xl text-center">Footer</h2>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default Footer;
