@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom'
 import Header from '../components/Header'
-import Component1 from '../components/Component1'
 import Footer from '../components/Footer'
+import books from '../data/books'
 
 const BooksLayout = () => {
   return (
@@ -14,7 +15,9 @@ const BooksLayout = () => {
             <h1>Books</h1>
           </div>
           <div className="flex justify-center w-full">
-            <Component1 />
+            {books.map((book) =>(
+              <Link to={`books/${book.slug}`} key={book.id}>{book.title}</Link>
+            ))}
           </div>
         </div>
       </main>
