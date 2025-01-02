@@ -17,7 +17,7 @@ const BooksLayout = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             {books.map((book) =>(
               <Link 
-                to={`books/${book.slug}`} 
+                to={book.slug} 
                 key={book.id}
                 className="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-200 transition-all"
               >
