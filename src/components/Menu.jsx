@@ -1,32 +1,32 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Menu = ({ className }) => {
   return (
     <nav className={className}>
-      <Link
+      <NavLink
         to="/"
         className="font-medium text-white hover:text-blue-400 mx-4 border border-white rounded-full px-4 py-2"
       >
         Home
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to="/books"
         className="font-medium text-white hover:text-blue-400 mx-4 border border-white rounded-full px-4 py-2"
       >
         Books
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to="/about"
         className="font-medium text-white hover:text-blue-400 mx-4 border border-white rounded-full px-4 py-2"
       >
         About
-      </Link>
-      <Link
+      </NavLink>
+      <NavLink
         to="/contacts"
         className="font-medium text-white hover:text-blue-400 mx-4 border border-white rounded-full px-4 py-2"
       >
         Contacts
-      </Link>
+      </NavLink>
     </nav>
   );
 };
