@@ -1,6 +1,6 @@
-import Header from '../components/Header'
-import Component1 from '../components/Component1'
-import Footer from '../components/Footer'
+import Header from "../components/Header";
+import Component1 from "../components/Component1";
+import Footer from "../components/Footer";
 
 const NotFoundLayout = () => {
   return (
@@ -22,7 +22,7 @@ const NotFoundLayout = () => {
         <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NotFoundLayout
+export default NotFoundLayout;
