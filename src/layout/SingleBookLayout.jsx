@@ -1,6 +1,6 @@
-import Header from '../components/Header'
-import Component1 from '../components/Component1'
-import Footer from '../components/Footer'
+import Header from "../components/Header";
+import Component1 from "../components/Component1";
+import Footer from "../components/Footer";
 
 const SingleBookLayout = () => {
   return (
@@ -22,7 +22,7 @@ const SingleBookLayout = () => {
         <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SingleBookLayout
+export default SingleBookLayout;
