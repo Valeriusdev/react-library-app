@@ -1,12 +1,11 @@
 import { useParams } from "react-router-dom";
 import books from "../data/books";
 import Header from "../components/Header";
-import Component1 from "../components/Component1";
 import Footer from "../components/Footer";
 
 const SingleBookLayout = () => {
   const params = useParams();
-  const book = book.find((book) => book.slug === params.slug);
+  const book = books.find((book) => book.slug === params.slug);
 
   return (
     <div className="flex flex-col w-full">
@@ -19,7 +18,7 @@ const SingleBookLayout = () => {
             <h1>Single Book Info</h1>
           </div>
           <div className="flex justify-center w-full">
-            <Component1 />
+            <h2>{book.title}</h2>
           </div>
         </div>
       </main>
