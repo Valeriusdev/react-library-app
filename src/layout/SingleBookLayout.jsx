@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import books from "../data/books";
 import Header from "../components/Header";
@@ -19,6 +20,9 @@ const SingleBookLayout = () => {
           </div>
           <div className="flex justify-center w-full">
             <h2>{book.title}</h2>
+          </div>
+          <div className="flex justify-center w-full">
+            <Link to="/books">All Books</Link>
           </div>
         </div>
       </main>
