@@ -6,7 +6,7 @@ import books from "../data/books";
 const BooksLayout = () => {
   return (
     <div className="flex flex-col w-full">
-      <section className="h-screen w-full">
+      <section className="h-[40vh] w-full">
         <Header />
       </section>
       <main className="w-full">
