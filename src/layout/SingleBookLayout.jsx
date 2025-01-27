@@ -3,10 +3,14 @@ import { useParams } from "react-router-dom";
 import books from "../data/books";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import NotFoundLayout from "./NotFoundLayout";
 
 const SingleBookLayout = () => {
   const params = useParams();
   const book = books.find((book) => book.slug === params.slug);
+  if (!book) {
+    return <NotFoundLayout />
+  }
 
   return (
     <div className="flex flex-col w-full">
